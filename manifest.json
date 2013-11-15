@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Continue",
+  "description": "Allows seamless web-surfing",
+  "version": "1.0",
+
+  "permissions": [
+    "webNavigation",
+	"storage"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+	"persistent": false
+  }
+}
